@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Befware | Yazılım ve Uygulamalar</title>
-<meta name="description" content="Befware; CommerceOS, Temelim, Asistena, Randıman ve Ürün Avcısı gibi işletmelerin işini kolaylaştıran yapay zekâ destekli web ve mobil uygulamalar geliştirir.">
+<meta name="description" content="Befware; CommerceOS, Temelim, Asistena, Plan Hane ve Ürün Avcısı gibi işletmelerin işini kolaylaştıran yapay zekâ destekli web ve mobil uygulamalar geliştirir.">
 <meta name="theme-color" content="#0B1B3F">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://befware.com.tr/">
@@ -34,8 +34,8 @@
       {"@type":"ListItem","position":1,"item":{"@type":"SoftwareApplication","name":"CommerceOS","applicationCategory":"BusinessApplication","description":"Shopify mağazaları için yapay zekâ destekli e-ticaret yönetimi.","publisher":{"@id":"https://befware.com.tr/#org"}}},
       {"@type":"ListItem","position":2,"item":{"@type":"SoftwareApplication","name":"Temelim","applicationCategory":"BusinessApplication","operatingSystem":"Web, Windows","url":"https://temelim.com.tr","description":"Kat karşılığı inşaat yapan müteahhitler için dijital inşaat cüzdanı.","publisher":{"@id":"https://befware.com.tr/#org"}}},
       {"@type":"ListItem","position":3,"item":{"@type":"SoftwareApplication","name":"Asistena","applicationCategory":"BusinessApplication","url":"https://asistena.com.tr","description":"İşletme telefonlarını 7/24 yanıtlayan yapay zekâ sesli asistan.","publisher":{"@id":"https://befware.com.tr/#org"}}},
-      {"@type":"ListItem","position":4,"item":{"@type":"SoftwareApplication","name":"Randıman","applicationCategory":"BusinessApplication","description":"Tomruk, levha, cam, çıta ve profil için kesim optimizasyonu.","publisher":{"@id":"https://befware.com.tr/#org"}}},
-      {"@type":"ListItem","position":5,"item":{"@type":"SoftwareApplication","name":"Ürün Avcısı","applicationCategory":"BusinessApplication","description":"Satış potansiyeli yüksek trend ürünleri bulan ürün araştırma aracı.","publisher":{"@id":"https://befware.com.tr/#org"}}}
+      {"@type":"ListItem","position":4,"item":{"@type":"SoftwareApplication","name":"Ürün Avcısı","applicationCategory":"BusinessApplication","description":"Satış potansiyeli yüksek trend ürünleri bulan ürün araştırma aracı.","publisher":{"@id":"https://befware.com.tr/#org"}}},
+      {"@type":"ListItem","position":5,"item":{"@type":"SoftwareApplication","name":"Plan Hane","applicationCategory":"BusinessApplication","description":"Mimarların müşteri görüşmelerinde anında görsel önizleme sunmasını sağlayan uygulama.","publisher":{"@id":"https://befware.com.tr/#org"}}}
     ]}
   ]
 }
@@ -164,6 +164,7 @@
   .media:hover .pbtn{transform:scale(1.05)}
   .media.static{cursor:default;align-items:center}
   .media .big-icon{position:relative;width:120px;height:120px;border-radius:30px;box-shadow:0 30px 60px rgba(0,0,0,.45);animation:float 6s ease-in-out infinite}
+  .media .soon{position:absolute;top:18px;right:18px;background:rgba(255,255,255,.95);color:var(--text);font-weight:700;font-size:12.5px;padding:6px 12px;border-radius:999px;box-shadow:0 8px 20px rgba(0,0,0,.25)}
   .media .ring{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:1px dashed rgba(255,255,255,.25);border-radius:50%}
   .body{padding:26px;display:flex;flex-direction:column;flex:1}
   .title{display:flex;align-items:center;gap:14px;margin-bottom:12px}
@@ -308,7 +309,7 @@
       <div>
         <span class="tag"><i></i>5 uygulama, tek çatı</span>
         <h1>İşinizi büyüten <span class="grad">akıllı yazılımlar</span> geliştiriyoruz.</h1>
-        <p class="lead">Befware; e-ticaretten inşaata, üretimden müşteri hizmetlerine kadar işletmelerin günlük işini hızlandıran, yapay zekâ destekli web ve mobil uygulamalar üretir.</p>
+        <p class="lead">Befware; e-ticaretten inşaata, mimarlıktan müşteri hizmetlerine kadar işletmelerin günlük işini hızlandıran, yapay zekâ destekli web ve mobil uygulamalar üretir.</p>
         <div class="actions">
           <a class="btn btn-primary" href="#uygulamalar">Uygulamaları keşfet <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           <button class="btn btn-ghost watch" data-video="videos/temelim.mp4" data-poster="videos/temelim.jpg" data-title="Temelim"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Tanıtım videosu</button>
@@ -326,7 +327,7 @@
         <button class="phone p2 watch" data-video="videos/commerceos.mp4" data-poster="videos/commerceos.jpg" data-title="CommerceOS" aria-label="CommerceOS tanıtım videosunu izle"><img src="videos/commerceos.jpg" alt="" width="720" height="1280"><span class="play"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
         <button class="phone p3 watch" data-video="videos/asistena.mp4" data-poster="videos/asistena.jpg" data-title="Asistena" aria-label="Asistena tanıtım videosunu izle"><img src="videos/asistena.jpg" alt="" width="720" height="1280"><span class="play"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
         <div class="chip c1" aria-hidden="true"><img src="apps/asistena.png" alt=""><div>Asistena<small>Telefonlar 7/24 yanıtta</small></div></div>
-        <div class="chip c2" aria-hidden="true"><img src="apps/randiman.png" alt=""><div>Randıman<small>Saniyede kesim planı</small></div></div>
+        <div class="chip c2" aria-hidden="true"><img src="apps/plan-hane.svg" alt=""><div>Plan Hane<small>Anında mimari önizleme</small></div></div>
         <div class="chip c3" aria-hidden="true"><img src="apps/commerceos.svg" alt=""><div>CommerceOS<small>Yapay zekâ içerik</small></div></div>
       </div>
     </div>
@@ -337,13 +338,13 @@
       <span><img src="apps/commerceos.svg" alt="">CommerceOS <em>E-ticaret</em></span>
       <span><img src="apps/temelim.png" alt="">Temelim <em>İnşaat</em></span>
       <span><img src="apps/asistena.png" alt="">Asistena <em>Sesli asistan</em></span>
-      <span><img src="apps/randiman.png" alt="">Randıman <em>Kesim planı</em></span>
       <span><img src="apps/urun-avcisi.svg" alt="">Ürün Avcısı <em>Ürün araştırma</em></span>
+      <span><img src="apps/plan-hane.svg" alt="">Plan Hane <em>Mimari önizleme</em></span>
       <span><img src="apps/commerceos.svg" alt="">CommerceOS <em>E-ticaret</em></span>
       <span><img src="apps/temelim.png" alt="">Temelim <em>İnşaat</em></span>
       <span><img src="apps/asistena.png" alt="">Asistena <em>Sesli asistan</em></span>
-      <span><img src="apps/randiman.png" alt="">Randıman <em>Kesim planı</em></span>
       <span><img src="apps/urun-avcisi.svg" alt="">Ürün Avcısı <em>Ürün araştırma</em></span>
+      <span><img src="apps/plan-hane.svg" alt="">Plan Hane <em>Mimari önizleme</em></span>
     </div>
   </div>
 
@@ -360,11 +361,10 @@
         <button aria-pressed="false" data-f="ai">Yapay zekâ</button>
         <button aria-pressed="false" data-f="biz">İşletme yönetimi</button>
         <button aria-pressed="false" data-f="ecom">E-ticaret</button>
-        <button aria-pressed="false" data-f="prod">Üretim</button>
       </div>
 
       <div class="apps">
-        <!-- UYGULAMA KARTI: Yeni uygulama için bir <article> bloğunu kopyalayın. data-cat: ai, biz, ecom, prod. --a1/--a2 kartın vurgu renkleridir. -->
+        <!-- UYGULAMA KARTI: Yeni uygulama için bir <article> bloğunu kopyalayın. data-cat: ai, biz, ecom. --a1/--a2 kartın vurgu renkleridir. -->
         <article class="app reveal" data-cat="ai ecom" style="--a1:#65A30D;--a2:#1A2E05">
           <button class="media watch" data-video="videos/commerceos.mp4" data-poster="videos/commerceos.jpg" data-title="CommerceOS" aria-label="CommerceOS tanıtım videosunu izle">
             <span class="mini"><img src="videos/commerceos.jpg" alt="" loading="lazy" width="720" height="1280"></span>
@@ -404,18 +404,6 @@
           </div>
         </article>
 
-        <article class="app wide reveal" data-cat="prod biz" style="--a1:#2563EB;--a2:#0B1B3F">
-          <button class="media watch" data-video="videos/randiman.mp4" data-poster="videos/randiman.jpg" data-title="Randıman" aria-label="Randıman tanıtım videosunu izle">
-            <span class="mini land"><img src="videos/randiman.jpg" alt="" loading="lazy" width="1280" height="720"></span>
-            <span class="pbtn"><i><svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></i>Tanıtımı izle</span>
-          </button>
-          <div class="body">
-            <div class="title"><img src="apps/randiman.png" alt="" width="48" height="48"><div><h3>Randıman</h3><small>Kesim optimizasyonu</small></div></div>
-            <p>Tomruk, levha, cam, çıta ve profil için en yüksek verimli kesim planını saniyeler içinde çıkarır. İş emrini yazdırın, kârınızı hesaplayın. Aynı hammaddeden daha fazla ürün.</p>
-            <div class="tags"><span>Üretim</span><span>Kesim planı</span><span>Fire azaltma</span></div>
-            <div class="cta"><a href="mailto:info@befware.com.tr?subject=Rand%C4%B1man%20demo">Ücretsiz demo iste <span aria-hidden="true">→</span></a></div>
-          </div>
-        </article>
 
         <article class="app wide reveal" data-cat="ecom" style="--a1:#0EA5E9;--a2:#082F49">
           <div class="media static" aria-hidden="true">
@@ -428,6 +416,20 @@
             <p>Satış potansiyeli yüksek, trend ürünleri sizin için bulur. Rakipleri ve pazarı takip ederek bir sonraki çok satan ürününüzü keşfetmenize yardımcı olur.</p>
             <div class="tags"><span>E-ticaret</span><span>Trend analizi</span><span>Rakip takibi</span></div>
             <div class="cta"><a href="mailto:info@befware.com.tr?subject=%C3%9Cr%C3%BCn%20Avc%C4%B1s%C4%B1">Bilgi al <span aria-hidden="true">→</span></a></div>
+          </div>
+        </article>
+        <article class="app wide reveal" data-cat="biz" style="--a1:#6366F1;--a2:#1E1B4B">
+          <div class="media static" aria-hidden="true">
+            <span class="soon">Yakında</span>
+            <span class="ring" style="width:190px;height:190px"></span>
+            <span class="ring" style="width:290px;height:290px"></span>
+            <img class="big-icon" src="apps/plan-hane.svg" alt="">
+          </div>
+          <div class="body">
+            <div class="title"><img src="apps/plan-hane.svg" alt="" width="48" height="48"><div><h3>Plan Hane</h3><small>Mimari önizleme</small></div></div>
+            <p>Mimarlar için müşteri görüşmesinin yardımcısı. Müşterinin istediğini konuşurken anında görsel önizlemeye dönüştürün, kararları masada netleştirin, revizyon turlarını kısaltın.</p>
+            <div class="tags"><span>Mimarlık</span><span>Anında önizleme</span><span>Müşteri görüşmesi</span></div>
+            <div class="cta"><a href="mailto:info@befware.com.tr?subject=Plan%20Hane%20erken%20eri%C5%9Fim">Erken erişim iste <span aria-hidden="true">→</span></a></div>
           </div>
         </article>
       </div>
@@ -522,8 +524,8 @@
           <li><a href="#uygulamalar">CommerceOS</a></li>
           <li><a href="https://temelim.com.tr" target="_blank" rel="noopener">Temelim</a></li>
           <li><a href="https://asistena.com.tr" target="_blank" rel="noopener">Asistena</a></li>
-          <li><a href="#uygulamalar">Randıman</a></li>
           <li><a href="#uygulamalar">Ürün Avcısı</a></li>
+          <li><a href="#uygulamalar">Plan Hane</a></li>
         </ul>
       </div>
       <div>
